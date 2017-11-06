@@ -1,0 +1,90 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+/* Imported Google CSS Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #868e96;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #46246B;
+    text-decoration: none;
+}
+
+a:active {
+    color: #46246B;
+    text-decoration: none;
+}
+
+.btn-primary:hover{
+    background-color:#46246B;
+    border-color:#46246B;
+}
+
+.btn-primary:active{
+    background-color:#46246B!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #868e96;
+    border-color:#868e96;
+}
+
+.btn-secondary:hover{
+    background-color:#46246B;
+}
+
+.btn-secondary:active{
+    background-color:#46246B!important;
+  
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #868e96;
+     border-color:#868e96;
+}
+
+.bg-dark{
+    background-color:rgba(70,36,107,0.8)!important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link{
+    color:#868e96!important;
+}
+
+.navbar-brand{
+    color:#868e96!important;
+}
+
+.nav-link:hover{
+ color: #FFF!important;
+}
+
+a.dropdown-item:hover {
+    background-color:#868e96!important;
+}
+
+a.dropdown-item:active {
+    background-color:#868e96!important;
+}
+
+.btn-social-icon{
+    color:#868e96!important;
+}
+
+.btn-social-icon:hover{
+    color:#FFF!important;
+}
