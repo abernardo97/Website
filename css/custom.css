@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+#logo {
+    color:#fff;
+}
+
 a:hover {
     color: #46246B;
     text-decoration: none;
@@ -62,15 +66,15 @@ a:active {
 }
 
 .nav-link{
-    color:#868e96!important;
+    color:#FFF!important;
 }
 
 .navbar-brand{
-    color:#868e96!important;
+    color:#FFF!important;
 }
 
 .nav-link:hover{
- color: #FFF!important;
+ color:#868e96!important;
 }
 
 a.dropdown-item:hover {
@@ -82,9 +86,10 @@ a.dropdown-item:active {
 }
 
 .btn-social-icon{
-    color:#868e96!important;
+    color:#FFF!important;
 }
 
 .btn-social-icon:hover{
-    color:#FFF!important;
+    color:#868e96!important;
 }
+
