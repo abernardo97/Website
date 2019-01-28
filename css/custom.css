@@ -5,64 +5,54 @@
  */
 
 /* Imported Google CSS Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
 
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3, .card-title{
+    font-family: 'Ubuntu', sans-serif;
+    color: #46246B;
 }
 
 a {
+    color: #46246B;
+    text-decoration: none;
+}
+
+footer a {
+    color: #fff;
+    text-decoration:none;
+}
+
+a:hover {
     color: #868e96;
     text-decoration: none;
 }
 
-#logo {
-    color:#fff;
-}
-
-a:hover {
-    color: #46246B;
-    text-decoration: none;
-}
-
 a:active {
-    color: #46246B;
+    color: #868e96;
     text-decoration: none;
 }
 
 .btn-primary:hover{
-    background-color:#46246B;
-    border-color:#46246B;
+    background-color:#868e96;
+    border-color:#868e96;
 }
 
 .btn-primary:active{
-    background-color:#46246B!important;
+    background-color:#868e96!important;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #868e96;
-    border-color:#868e96;
-}
-
-.btn-secondary:hover{
-    background-color:#46246B;
-}
-
-.btn-secondary:active{
-    background-color:#46246B!important;
-  
-}
-
-.btn-secondary {
-    color: #fff;
-    background-color: #868e96;
-     border-color:#868e96;
+    background-color: #46246B;
+    border-color:#46246B;
 }
 
 .bg-dark{
     background-color:rgba(70,36,107,0.8)!important;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-link{
@@ -77,19 +67,25 @@ a:active {
  color:#868e96!important;
 }
 
-a.dropdown-item:hover {
-    background-color:#868e96!important;
-}
-
-a.dropdown-item:active {
-    background-color:#868e96!important;
-}
-
 .btn-social-icon{
     color:#FFF!important;
 }
 
 .btn-social-icon:hover{
     color:#868e96!important;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+#logo {
+    color:#fff;
+}
+
+@media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
 }
 
