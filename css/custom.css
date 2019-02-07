@@ -11,6 +11,11 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background: #eeeeee;
+    color: #2f2f2f;
+ }
+
 h3, .card-title{
     font-family: 'Ubuntu', sans-serif;
     color: #46246B;
@@ -26,23 +31,14 @@ footer a {
     text-decoration:none;
 }
 
-a:hover {
+a:hover, a:active {
     color: #868e96;
     text-decoration: none;
 }
 
-a:active {
-    color: #868e96;
-    text-decoration: none;
-}
-
-.btn-primary:hover{
-    background-color:#868e96;
-    border-color:#868e96;
-}
-
-.btn-primary:active{
+.btn-primary:hover, .btn-primary:active{
     background-color:#868e96!important;
+    border-color:#868e96;
 }
 
 .btn-primary {
@@ -51,32 +47,26 @@ a:active {
     border-color:#46246B;
 }
 
-.bg-dark{
-    background-color:rgba(70,36,107,0.8)!important;
+.navbar-expand-lg, .py-5{
+    background-color:rgba(70,36,107,0.8);
 }
 
-.nav-link{
+.nav-link, .navbar-brand, .btn-social-icon {
     color:#FFF!important;
 }
 
-.navbar-brand{
-    color:#FFF!important;
-}
-
-.nav-link:hover{
- color:#868e96!important;
-}
-
-.btn-social-icon{
-    color:#FFF!important;
-}
-
-.btn-social-icon:hover{
+.nav-link:hover, .btn-social-icon:hover{
     color:#868e96!important;
 }
 
 .portfolio-item {
     margin-bottom: 30px;
+}
+
+.card{
+    background: #fdfdfd; 
+    border-radius:10px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
 }
 
 #logo {

@@ -1,0 +1,48 @@
+body {
+    background: #eeeeee;
+    font-family: 'Raleway', sans-serif;
+    color: #a1a1a1;
+ }
+
+ #mainCanvas {
+    margin-left:10px;
+    margin-top:10px;
+    position:absolute;
+    z-index: 0;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    border-radius:10px;
+ }
+
+ #topCanvas{
+    margin-left:10px;
+    margin-top:10px;
+    border-radius:10px;
+    background: rgba(0,0,0,0);
+    position:absolute;
+    z-index: 1;
+    cursor: pointer;
+ }
+ 
+#controls {
+    background:white;
+    color: #a1a1a1;
+    border-radius:10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    left: 25px;
+    top: 25px;
+ }
+
+#clearButton, select {
+    background: #eeeeee;
+    color: #a1a1a1;
+    border: none;
+    border-radius: 10px;
+}
+ 
+ label{
+     font-size: 12px;
+     margin-right:0.75em;
+ }

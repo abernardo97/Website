@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Canvas Paint App</title>
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<script src="app.js"></script>
+
+</head>
+<body>
+	<canvas id="mainCanvas" width="700" height="500">
+	No browser support.
+	</canvas>
+	<canvas id="topCanvas" width="700" height="500">	
+	No browser support.
+	</canvas>
+	<div id="controls">
+		<label>Tool:
+			<select id="toolChooser">
+				<option value="toolPencil">Pencil</option>
+				<option value="toolRectangle">Rectangle</option>
+				<option value="toolLine">Line</option>
+    		</select>
+    	</label>
+    	<label>Stroke Color:
+			<select id="strokeStyleChooser">
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="yellow">Yellow</option>
+				<option value="black">Black</option>
+			</select>
+		</label>
+    	<label>Line Width: 
+			<select id="lineWidthChooser">
+				<option value="1">1</option>
+				<option value="2">2</option>
+        		<option value="3" selected>3</option>
+        		<option value="4">4</option>
+				<option value="5">5</option>
+        		<option value="6">6</option>
+        		<option value="7">7</option>
+				<option value="8">8</option>
+        		<option value="9">9</option>
+        		<option value="10">10</option>
+    		</select>
+    	</label>
+		<label>Fill Color:
+			<select id="fillStyleChooser">
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="yellow">Yellow</option>
+				<option value="black">Black</option>
+			</select>
+		</label>
+    	<span><input id="clearButton" type="button" value="Clear"/></span>
+	</div>
+</body>
+</html>
