@@ -79,13 +79,17 @@ a:hover, a:active {
     border-radius:10px;
 }
 
+.resumeButton{
+    margin-bottom: 20px;
+}
+
 #logo {
     color:#fff;
 }
 
 @media (min-width: 992px) {
     body {
-      padding-top: 56px;
+      padding-top: 100px;
     }
 }
 
