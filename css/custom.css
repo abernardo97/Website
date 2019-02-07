@@ -5,10 +5,10 @@
  */
 
 /* Imported Google CSS Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu');
 
 html{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -38,7 +38,7 @@ a:hover, a:active {
 
 .btn-primary:hover, .btn-primary:active{
     background-color:#868e96!important;
-    border-color:#868e96;
+    color: #fff;
 }
 
 .btn-primary {
@@ -51,21 +51,26 @@ a:hover, a:active {
     background-color:rgba(70,36,107,0.8);
 }
 
-.nav-link, .navbar-brand, .btn-social-icon {
-    color:#FFF!important;
+.btn-social-icon {
+    color:#FFF;
 }
 
-.nav-link:hover, .btn-social-icon:hover{
-    color:#868e96!important;
+.btn-social-icon:hover{
+    color:#868e96;
 }
 
 .portfolio-item {
     margin-bottom: 30px;
 }
 
-.card{
+.card {
     background: #fdfdfd; 
-    border-radius:10px;
+    border-radius:20px;
+}
+
+.card-img-top{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
 }
 
 .about{
