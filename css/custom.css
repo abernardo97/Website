@@ -43,19 +43,22 @@ a:hover, a:active {
     text-decoration: none;
 }
 
+.portfolioButton, .aboutButton{
+    color: #fff;
+    background-color: #46246B;
+    border-color:#46246B;
+}
 .btn-primary:hover, .btn-primary:active{
     background-color:#868e96!important;
     color: #fff;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #46246B;
-    border-color:#46246B;
-}
-
 .navbar-expand-lg, footer{
     background-color:rgba(70,36,107,0.8);
+}
+
+footer{
+    padding-right: 50px;
 }
 
 .btn-social-icon {
