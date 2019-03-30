@@ -66,6 +66,9 @@ a:hover, a:active {
     background-color:rgba(70,36,107,0.8);
 }
 
+.navbar-expand-lg {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 footer{
     padding-right: 50px;
 }
